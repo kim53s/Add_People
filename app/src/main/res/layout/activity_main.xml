@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#24A6BD"
+    tools:context="finalproject.addpeople.MainActivity"
+    android:baselineAligned="false">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:layout_marginTop="60dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/abbey"
+                android:text="Abbey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/wilder"
+                android:text="Wilder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/prospect"
+                android:text="Prospect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <Button
+                android:id="@+id/rocky"
+                android:text="Rocky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/ham"
+                android:text="Ham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/mac"
+                android:text="MacGregor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
